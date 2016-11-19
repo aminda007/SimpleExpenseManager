@@ -53,7 +53,7 @@ public class ManageExpensesFragment extends Fragment implements View.OnClickList
         Bundle args = new Bundle();
         args.putSerializable(EXPENSE_MANAGER, expenseManager);
         manageExpensesFragment.setArguments(args);
-        return manageExpensesFragment;
+        return manageExpensesFragment;//ds
     }
 
     public ManageExpensesFragment() {
